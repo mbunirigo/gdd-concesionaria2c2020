@@ -1,6 +1,6 @@
 Curso = K3523
 Número de grupo =
-Apellido y Nombre= Aramayo, Raul 
+Apellido y Nombre = Aramayo, Raul 
 Legajo = 1086352
 Apellido y Nombre = Barreto, José María
 Legajo = 1558729
