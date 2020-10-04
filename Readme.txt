@@ -1,5 +1,5 @@
 Curso = K3523
-Número de grupo =
+Número de grupo = 29
 Apellido y Nombre = Aramayo, Raul 
 Legajo = 1086352
 Apellido y Nombre = Barreto, José María
@@ -8,4 +8,4 @@ Apellido y Nombre = Buñirigo, Maximiliano Rodrigo
 Legajo = 1501951
 Apellido y Nombre = Gonzalez Sapia, Gaston Martin
 Legajo = 1562551
-Mail del responsable del equipo= maxibunirigo@gmail.com
+Mail del responsable del equipo = maxibunirigo@gmail.com
