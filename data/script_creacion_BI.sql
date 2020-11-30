@@ -141,6 +141,23 @@ BEGIN
 END
 GO
 
+CREATE FUNCTION [NO_HAY_BACKUP].fx_codigo_potencia(@potencia decimal(18,0))
+RETURNS decimal(18,0) AS
+BEGIN
+
+	DECLARE @RETORNO decimal(18,0) = 0
+	
+	SET @RETORNO = CASE
+	WHEN (@potencia >= 50 and @potencia <= 150) THEN 1
+	WHEN @potencia >= 151 and @potencia <= 300 THEN 2
+	ELSE 3
+	END
+
+	RETURN @RETORNO
+
+END
+GO
+
 
 /* ***** DEFINICION STORED PROCEDURES ***** */
 
