@@ -21,6 +21,8 @@ DROP FUNCTION [NO_HAY_BACKUP].fx_codigo_tiempo
 
 DROP FUNCTION [NO_HAY_BACKUP].fx_codigo_potencia
 
+drop FUNCTION [NO_HAY_BACKUP].fx_obtener_tiempo_en_stock
+
 DROP PROCEDURE [NO_HAY_BACKUP].PRC_INSERT_DIM_AUTO_PARTE
 DROP PROCEDURE [NO_HAY_BACKUP].PRC_INSERT_DIM_TIPO_TRANSMISION
 DROP PROCEDURE [NO_HAY_BACKUP].PRC_INSERT_DIM_TIPO_CAJA
@@ -35,3 +37,14 @@ DROP PROCEDURE [NO_HAY_BACKUP].PRC_INSERT_DIM_TIEMPO
 DROP PROCEDURE [NO_HAY_BACKUP].PRC_INSERT_DIM_CLIENTE
 DROP PROCEDURE [NO_HAY_BACKUP].PRC_INSERT_HECHOS
 
+
+DROP VIEW [NO_HAY_BACKUP].vw_op_x_mes_sucursal
+DROP VIEW NO_HAY_BACKUP.vw_prec_promedio_auto
+DROP VIEW [NO_HAY_BACKUP].vw_ganancias_x_sucursal_mes_auto
+drop view NO_HAY_BACKUP.vw_temp_modelo_inicial
+drop view NO_HAY_BACKUP.vw_temp_modelo_final
+DROP VIEW NO_HAY_BACKUP.vw_promedio_auto_en_stock
+
+DROP VIEW NO_HAY_BACKUP.vw_precio_promedio_autoparte
+DROP VIEW [NO_HAY_BACKUP].vw_ganancias_x_sucursal_mes_autoparte
+DROP VIEW [NO_HAY_BACKUP].vw_max_cant_stock_sucursal
